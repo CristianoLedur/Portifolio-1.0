@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifólio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="/css/reset.css"> -->
+  <link rel="stylesheet" href="css/style.css">
+  <script href="js/main.js"></script>
+</head>
+<body>
+  <div class="column home">
+    <header>
+      <nav id="cabecalho">
+        <img id="logo" src="Imagens/logo.svg" href="#home" alt="Meu logotipo">
+        <ul class="link-nav">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portifolio">Portifólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="box-home">
+      <section class="home-esquerda">
+        <h4>Desenvolvedor Front-End</h4>
+        <h1>Cristiano Ledur</h1>
+        <p>Olá, me chamo Cristiano Ledur. Atualmente estou focado no desenvolvimento front-end com HTML, CSS e Javascript.</p>
+        <button class="link-de-contato" onclick="location.href='#contato'" type="button">Contate-me</button>
+        <button class="cv">Baixar Currículo</button>
+      </section>
+      <section class="home-direita">
+        <div id="circulo">
+          <img id="vetor" src="Imagens/vetor.png" alt="Imagem de um vetor">
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div id="sobre" class="column">
+    <h1 class="column-title">Sobre</h1>
+    <div class="sobre-box">
+      <section class="sobre-esquerda">
+        <img id="eu" src="Imagens/eu.jpg" alt="Imagem de Cristiano Ledur">
+        <h2>Cristiano Ledur</h2>
+        <div class="contatos-black">
+          <a href="https://github.com/CristianoLedur">
+            <img class="logos-black" id="github-black" src="Imagens/github.png" alt="Imagem da logo do GitHub">
+          </a>
+          <a href="mailto:cristianoledur98@gmail.com">
+            <img class="logos-black" id="email-black" src="Imagens/o-email.png" alt="Imagem de uma carta">
+          </a>
+          <a href="https://www.linkedin.com/in/cristiano-ledur/">
+            <img class="logos-black" id="linkedin-black" src="Imagens/logotipo-do-linkedin.png" alt="Imagem da logo do Linkedin">
+          </a>
+                  </div>
+      </section>
+      <section class="sobre-direita">
+        <img src="Imagens/flecha.png" alt="Imagem de uma flecha utilizada como tópico">
+        <h3>Conheça um pouco sobre mim</h3>
+        <p>Meu nome é Cristiano Ledur e sou Desenvolvedor Front-End. 
+          Conheci essa area durante a pandemia e desde então venho me aperfeiçoando cada vez mais sobre a web!
+        </p>
+  
+        <p>Meu primeiro contato com programação foi a partir dos cursos da Alura. 
+          Desde então tive a oportunidade de por meus conhecimentos em prática e dar início no curso de Análise de Desenvolvimento de Sistemas.
+        </p>
+      </section>
+    </div>
+    
+  </div>
+
+  <div id="skills" class="column">
+    <h1 class="column-title">Skills</h1>
+    <div id="list-skills">
+      <img class="logo-skills" src="Imagens/html.png" alt="Imagem da logo do HTML5">
+      <img class="logo-skills" src="Imagens/css-3.png" alt="Imagem da logo do CSS3">
+      <img class="logo-skills" src="Imagens/script-java.png" alt="Imagem da logo do Javascript">
+      <img class="logo-skills" src="Imagens/github.png" alt="Imagem da logo do GitHub">
+      <img class="logo-skills" src="Imagens/physics.png" alt="Imagem da logo do Reack">
+    </div>
+   
+  </div>
+
+  <div id="portifolio" class="column">
+    <h1>Portifólios</h1>
+    <div class="carrosel--conteiner">
+      <i class="fa fa-chevron-left" style="font-size:10rem; display:inline-block; float:left;"></i>
+        <div class="carrosel--content">
+          <div class="carrosel_item">
+            ..
+          </div>
+          <div class="carrosel_item">
+            ..
+          </div>
+          <div class="carrosel_item">
+            ..
+          </div>
+          <div class="carrosel_item">
+            ..
+          </div>
+        </div>
+      <i class="fa fa-chevron-right" style="font-size:10rem; display:inline-block; float:right;"></i>
+    </div>
+  </div>
+
+  <div id="contato" class="column">
+    <h1>Contato</h1>
+    <section class="contatos-esquerda">
+      <img class="logo-white" id="logo-linkedin-white" src="Imagens/logotipo-do-linkedin (1).png">
+      <a id="linkedin" class="links-contato" href="https://www.linkedin.com/in/cristiano-ledur/">Cristiano Ledur</a>
+
+      <img class="logo-white" id="logo-github-white" src="Imagens/github (1).png">
+      <a id="github" class="links-contato" href="https://github.com/CristianoLedur">CristianoLedur</a>
+    </section>
+    <section class="contatos-direita">
+      <img class="logo-white" id="logo-whatsapp-white" src="Imagens/whatsapp.png">
+      <a id="whatsapp" class="links-contato" href="https://wa.me/+5551999748712">+55(51) 9 9974-8712</a>
+
+      <img class="logo-white" id="logo-email-white" src="Imagens/email.png">
+      <a id="email" class="links-contato" href="mailto:cristianoledur98@gmail.com? subject=subject text">cristianoledur98@gmail.com</a>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2022 Cristiano Ledur - Desenvolvido por <a href="#">Cristiano Ledur</a>
+    </p>
+  </footer>
+  
+</body>
+</html>
