@@ -14,4 +14,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Para acessar o porrtifólio, basta [clicar aqui](https://cristianoledur.github.io/Portifolio/)
 
+## 📝 Licença
+
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+
 [⬆ Voltar ao topo](#Portifolio)<br>
