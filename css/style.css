@@ -265,12 +265,6 @@ li a {
   width: 125px;
 }
 
-#portifolio {
-  height:40vh;
-  text-align:center;
-  padding:2rem;
-}
-
 .carrosel--conteiner {
   padding:2rem;
   height:30rem;
@@ -294,11 +288,69 @@ li a {
   margin-right:2rem;
   display:inline-block;
 }
+/* sdad */
+#portifolio h1 {
+  margin-top: 30px;
+  text-align:center;
+}
+#portifolio {
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+}
 
+#portifolio p {
+  margin-top: 35px;
+  margin-left: 35px;
+}
 
+#portifolio-projetos {
+  margin: 0 auto;
+  width: 1200px;
+  display: grid;
+  row-gap: 15px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns:1fr 1fr 1fr;
 
+}
 
+#portifolio-projetos a {
+  text-decoration: none;
+}
 
+.img-portifolio {
+  width: 85%;
+  margin: 0 10%;
+  border-radius: 5px;
+}
+
+#repositorios {
+  margin-top: 30px;
+  text-decoration: none;
+  color:#FCA313;
+  font-weight: 600;
+}
+
+figure {
+  margin: 0 auto;
+}
+figcaption{
+  display: flex;
+  flex-direction: column;
+}
+
+figcaption h3{
+  text-align: center;
+}
+
+figcaption a {
+  padding: 10px;
+  margin: 0 auto;
+  color: #000000;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #FCA313;
+}
 
 #contato {
   height: 447px;
