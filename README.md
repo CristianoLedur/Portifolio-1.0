@@ -6,7 +6,7 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Compo "Portifólio"
+- [x] Campo "Portifólio"
 - [ ] Responsividade
 - [ ] Alterações de textos e imagens
 
